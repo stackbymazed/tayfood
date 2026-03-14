@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TayFood 🍔🍕
 
-## Getting Started
+> A premium, highly aesthetic, and fully responsive restaurant landing page application built with Next.js 14 (App Router) & React.
 
-First, run the development server:
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Site-success?style=for-the-badge&logoColor=white)](https://tay-food-r1y9qh7z8-nayem783982s-projects.vercel.app/)
+[![Next.js](https://img.shields.io/badge/Next.js-14+-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Live Production URL
+
+**[https://tay-food-r1y9qh7z8-nayem783982s-projects.vercel.app/](https://tay-food-r1y9qh7z8-nayem783982s-projects.vercel.app/)**
+
+## ✨ Features
+
+- **Premium UI/UX:** Eye-catching design with vibrant colors, hover micro-animations, and a modern aesthetic.
+- **Dynamic Scroll Animations:** Utilizes `IntersectionObserver` for satisfying counting animations on the stats counter.
+- **Custom Vanilla CSS Engine:** Designed without standard utility frameworks for maximum stylistic control and uniqueness.
+- **Fully Responsive Structure:** Mobile-first approach delivering flawless layouts across all device sizes.
+- **Multi-page Architecture (App Router):** Fast, SEO-optimized routing including Home, About, Menu, Service, and Contact pages.
+- **Component-Driven:** Modular code consisting of reusable headers, footers, and animated stat counters.
+- **Lucide Icon Integration:** Clean and beautiful SVG iconography using `lucide-react`.
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Library:** React 
+- **Styling:** Custom Vanilla CSS (Variables, Flexbox, CSS Grid)
+- **Icons:** Lucide React
+- **Deployment:** Vercel
+
+## 📂 Project Structure
+
+```text
+src/
+├── app/
+│   ├── layout.tsx         # Global layout and metadata
+│   ├── page.tsx           # Home landing page 
+│   ├── globals.css        # Core design system and CSS variables
+│   ├── about/             # About us page
+│   ├── contact/           # Contact form and info
+│   ├── menu/              # Detailed food menu
+│   └── service/           # Service details
+├── components/
+│   ├── Header.tsx         # Reusable sticky navigation bar
+│   ├── Footer.tsx         # Reusable multi-column footer
+│   └── Counter.tsx        # IntersectionObserver based stat counter
+public/
+└── images/                # Generated premium food photography & assets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏁 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To run the project locally, run these commands in your terminal:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/stackbymazed/tayfood.git
+   cd tayfood
+   ```
 
-## Learn More
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Open in Browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 Contribution
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/stackbymazed/tayfood/issues).
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Architected and developed with ❤️ for the finest digital dining experience.*
