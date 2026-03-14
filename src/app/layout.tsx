@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "FoodStation - Delicious Foods With Wonderful Eating",
+  title: "Tay-Food - Delicious Foods With Wonderful Eating",
   description: "Fresh and healthy food available here. Discover the best food from popular restaurants and enjoy your dining experience.",
 };
 

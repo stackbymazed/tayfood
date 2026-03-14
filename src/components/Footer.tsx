@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div>
             <div className="footer-logo">
-              <span className="text-primary">Food</span>Station
+              <span className="text-primary">Tay</span>Food
             </div>
             <p className="footer-desc">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.

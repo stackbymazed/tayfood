@@ -35,7 +35,7 @@ export default function Header() {
       <nav className="navbar">
         <div className="container">
           <div className="logo">
-            <span className="text-primary">Food</span>Station
+            <span className="text-primary">Tay</span>Food
           </div>
           <ul className="nav-links">
             <li><Link href="/" className={isActive('/')}>Home</Link></li>
